@@ -43,6 +43,12 @@ img {
     padding: 0 1em;
 }
 
+@media only screen and (max-width:1000px) {
+    .container {
+        width: 40%;
+    }
+}
+
 @media only screen and (max-width:900px) {
     .container {
         width: 50%;
@@ -51,9 +57,15 @@ img {
     }
 }
 
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:800px) {
     .container {
         width: 60%;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        width: 70%;
     }
 }
 
